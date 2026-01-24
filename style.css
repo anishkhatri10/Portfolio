@@ -1,9 +1,212 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+body {
+    background-color:#0F172A;
+}
+/* Navbar CSS */
+.navbar {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   height: 80px;
+   display: flex;
+   align-items: center;
+   gap: 80px;
+   padding: 0 50px;
+   background-color: #0F172A;
+   border-bottom: solid;
+   border-color: #18C3E6;
+}
+.logo {
+    font-size: 40px;
+   margin-left: 50px;
+}
+.dot {
+    color: #18C3E6;
+    font-size: 60px;
+}
+.navul{
+    display: flex;
+    gap: 50px;
+    padding: 10px 150px;
+    background-color: #2b2c30;
+    border-radius: 20px;
+    border: solid;
+    border-color: #2b2c30;
+}
+ .navul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: azure;
+  
+}
+a:hover {
+    color: #18C3E6;
+}
+button {
+    height: 40px;
+    width: 120px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-left: 19px;
+    background-color: #18C3E6;
+    color: #2b2c30;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 0.3s ease;
 }
 
-.navbar {
-    height: 100px;
-    background-color: black;
+button:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0, 255, 255, 0.15);
+  border-color: #00e5ff;
+
+}
+
+/*home page css and contener1 */
+.contener1 {
+    display: flex;
+    gap: 250px;
+}
+.intro {
+    margin-left: 110px;
+    height: 200px;
+    width: 500px;
+    display: grid;
+}
+.ht_a {
+    color: #18C3E6;
+    font-size: 18px;   
+}
+.ab_a {
+    font-size: 50px;
+}
+.ab_b {
+    color: #18C3E6;
+    font-size: 80px;
+    font-weight: bolder;
+    
+ }
+ .ab_c {
+    color: #18C3E6;
+    font-size: 32px;
+ }
+ .about_me {
+    font-size: 20px;
+ }
+
+ /*add the css for the photo */
+ .pto1 {
+    height: 50px;
+    width: 100px;
+    padding-top: 90px;
+ }
+ .pto2 {
+    border-radius: 30px;
+ }
+
+ /*css for the cards*/
+ .stats {
+  display: flex;
+  gap: 80px;
+  margin-left: 100px;
+}
+
+.stat-card {
+  width: 80px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  text-align: center;
+  padding: 30px 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: 0.3s ease;
+  margin-top: 500px;
+}
+
+.stat-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0, 255, 255, 0.15);
+  border-color: #00e5ff;
+}
+
+.stat-card h2 {
+  font-size: 38px;
+  color: #00e5ff;
+  margin-bottom: 1px;
+}
+
+.stat-card h2 span {
+  font-size: 22px;
+}
+
+.stat-card p {
+  font-size: 14px;
+  color: #cfd8dc;
+  letter-spacing: 0.5px;
+}
+/*add css for button*/
+.button_con {
+    display: flex;
+    gap: 50px;
+
+}
+
+.bt_1 {
+    margin-left: 110px;
+    margin-top: 80px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 10px;
+}
+.bt_2 {
+    margin-top: 80px;
+    width: 190px;
+    background-color: #0F172A;
+    color: aliceblue;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+/*css for icon*/
+.icon {
+    display: flex;
+    gap: 20px;
+    margin-left: 110px;
+    margin-top: 35px;
+}
+.bt_wa {
+    height: 45px;
+    width: 45px;
+    border-radius: 7px;
+    background-color: #0F172A;
+}
+.bt_ld {
+      height: 45px;
+    width: 45px;
+    border-radius: 7px;
+    background-color: #0F172A;
+}
+.bt_ig {
+      height: 45px;
+    width: 45px;
+    border-radius: 7px;
+    background-color: #0F172A;
+}
+.bt_fb {
+      height: 45px;
+    width: 45px;
+    border-radius: 7px;
+    background-color: #0F172A;
 }
