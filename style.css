@@ -214,10 +214,74 @@ button:hover {
 /*add css for about section */
 .about_con {
     margin-top: 100px;
-    margin-left: 120px;
+    margin-left: 200px;
+    display: flex;
 
 }
 
 .about_pto {
     border-radius: 25px;
+}
+.about_txt {
+    margin-left: 200px;
+    margin-right: 100px;
+}
+.about_head {
+    color: #18C3E6;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.about_desc {
+    padding-top: 40px;
+    text-align: justify;
+    font-size: 18px;
+}
+/*CSS for the about */
+.about_edu {
+    margin-top: 80px;
+    height: 75px;
+    width: 600px;
+    background-color: #2b2c30;
+    border-radius: 10px;
+    display: flex;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 0.3s ease;
+}
+.about_edu:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(0, 255, 255, 0.15);
+    border-color: #00e5ff;
+
+}
+.edu_icon {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.edu_txt {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.edu_text_on {
+    margin-left: 20px;
+}
+
+.about_edu1 {
+    margin-top: 15px;
+    height: 75px;
+    width: 600px;
+    background-color: #2b2c30;
+    border-radius: 10px;
+    display: flex;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 0.3s ease;
+
+}
+.about_edu1:hover {
+     transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(0, 255, 255, 0.15);
+    border-color: #00e5ff;
+
 }
