@@ -20,6 +20,7 @@ body {
    background-color: #0F172A;
    border-bottom: solid;
    border-color: #18C3E6;
+   z-index: 1000;
 }
 .logo {
     font-size: 40px;
