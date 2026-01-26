@@ -285,3 +285,114 @@ button:hover {
     border-color: #00e5ff;
 
 }
+
+/*css for button for the about section */
+.about_btn {
+    width: 200px;
+    background-color: #2b2c30;
+    color: #cfd8dc;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 20px;
+}
+/*css for the skill section*/
+/* Skills Section */
+.skills {
+  background: #0f172a;
+  color: #fff;
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 36px;
+  color: #22d3ee;
+}
+
+.underline {
+  width: 80px;
+  height: 4px;
+  background: #22d3ee;
+  margin: 10px auto 50px;
+  border-radius: 5px;
+}
+
+/* Container */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+   grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+/* Card */
+.skill-card {
+  background: #020617;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(34, 211, 238, 0.2);
+  transition: 0.3s;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Card Title */
+.skill-card h3 {
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+/* Skill Item */
+.skill {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.skill span {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Bar */
+.bar {
+  background: #1e293b;
+  height: 8px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Progress */
+.progress {
+  height: 100%;
+  background: linear-gradient(to right, #22d3ee, #0ea5e9);
+  border-radius: 5px;
+  width: 0;
+  animation: fill 2s forwards;
+}
+
+/* Percentages */
+.html { width: 90%; }
+.css { width: 85%; }
+.js { width: 45%; }
+
+.node { width: 20%; }
+.python { width: 15%; }
+.express { width: 10%; }
+
+/* Database 25% */
+.db { width: 15%; }
+
+/* DevOps 100% */
+.devops { width: 100%; }
+
+/* Animation */
+@keyframes fill {
+  from {
+    width: 0;
+  }
+}
