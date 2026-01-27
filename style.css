@@ -563,3 +563,151 @@ button:hover {
   }
 }
 
+/* add the css for contact section*/
+
+/* Main Section */
+
+.contact {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+/* Title */
+
+.contact h2 {
+  font-size: 40px;
+  color: #22d3ee;
+}
+
+.line {
+  width: 70px;
+  height: 4px;
+  background: #22d3ee;
+  margin: 15px auto 40px;
+  border-radius: 5px;
+}
+
+/* Layout */
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+/* Left Side */
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-box {
+  background: #020617;
+  border: 1px solid #1e293b;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.info-box:hover {
+  border-color: #22d3ee;
+}
+
+.info-box i {
+  font-size: 25px;
+  color: #22d3ee;
+  margin-bottom: 10px;
+}
+
+.info-box h4 {
+  margin: 8px 0;
+}
+
+.info-box p {
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.info-box a {
+  display: inline-block;
+  margin-top: 8px;
+  color: #22d3ee;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Social */
+
+.social {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.social i {
+  color: #22d3ee;
+}
+
+/* Right Form */
+
+.contact-form {
+  background: #020617;
+  border: 1px solid #1e293b;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background: transparent;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  color: #fff;
+  outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #22d3ee;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+/* Button */
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background: #22d3ee;
+  color: #020617;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #0ea5e9;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+}
+
