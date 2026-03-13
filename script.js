@@ -1,10 +1,10 @@
 
-// MOBILE MENU TOGGLE
-
-const navMenu = document.getElementById("nav-menu");
 
 function toggleMenu() {
+    const navMenu = document.getElementById("nav-menu");
+    const hamburger = document.getElementById("hamburger");
     navMenu.classList.toggle("show-menu");
+    hamburger.classList.toggle("open");
 }
 
 
