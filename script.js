@@ -1,15 +1,15 @@
-// ============================
+
 // MOBILE MENU TOGGLE
-// ============================
+
 const navMenu = document.getElementById("nav-menu");
 
 function toggleMenu() {
     navMenu.classList.toggle("show-menu");
 }
 
-// ============================
+
 // CLOSE MENU WHEN CLICK LINK
-// ============================
+
 const navLinks = document.querySelectorAll(".nav_Link");
 
 navLinks.forEach(link => {
@@ -19,9 +19,9 @@ navLinks.forEach(link => {
 });
 
 
-// ============================
+
 // SMOOTH SCROLL
-// ============================
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener("click", function (e) {
         e.preventDefault();
@@ -34,9 +34,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
-// ============================
 // ACTIVE MENU ON SCROLL
-// ============================
+
 const sections = document.querySelectorAll("section");
 const navLi = document.querySelectorAll(".nav_Link");
 
@@ -62,9 +61,8 @@ window.addEventListener("scroll", () => {
 });
 
 
-// ============================
 // SCROLL TO TOP BUTTON
-// ============================
+
 const scrollBtn = document.createElement("button");
 scrollBtn.innerText = "↑";
 scrollBtn.id = "scrollTop";
@@ -94,9 +92,9 @@ scrollBtn.onclick = () => {
 };
 
 
-// ============================
+
 // CONTACT FORM VALIDATION
-// ============================
+
 const form = document.querySelector("form");
 
 if (form) {
@@ -115,9 +113,9 @@ if (form) {
 }
 
 
-// ============================
+
 // FADE IN ANIMATION
-// ============================
+
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if(entry.isIntersecting){
